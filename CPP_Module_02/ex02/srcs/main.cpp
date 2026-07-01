@@ -1,0 +1,36 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/01 18:52:27 by ahwang            #+#    #+#             */
+/*   Updated: 2026/07/01 19:07:21 by ahwang           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../incs/Fixed.hpp"
+
+int	main(int argc, char **argv)
+{
+	(void)argv;
+	if (argc != 1)
+	{
+		std::cout << "Arument error" << std::endl;
+		return (1);
+	}
+
+	Fixed a;
+	Fixed const b( Fixed( 5.05f ) * Fixed( 2 ) );
+
+	std::cout << a << std::endl;
+	std::cout << ++a << std::endl;
+	std::cout << a << std::endl;
+	std::cout << a++ << std::endl;
+	std::cout << a << std::endl;
+	std::cout << b << std::endl;
+	std::cout << Fixed::max( a, b ) << std::endl;
+
+	return (0);
+}
