@@ -6,11 +6,11 @@
 #    By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/01 01:10:32 by ahwang            #+#    #+#              #
-#    Updated: 2026/07/01 03:10:54 by ahwang           ###   ########.fr        #
+#    Updated: 2026/07/02 00:29:27 by ahwang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = replace
+NAME = harl
 CPP = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -f

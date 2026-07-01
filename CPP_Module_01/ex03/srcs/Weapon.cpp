@@ -6,7 +6,7 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/30 02:22:08 by ahwang            #+#    #+#             */
-/*   Updated: 2026/06/30 02:22:10 by ahwang           ###   ########.fr       */
+/*   Updated: 2026/07/02 00:07:13 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ Weapon::Weapon()
 
 Weapon::Weapon(std::string type) : _type(type)
 {
+	
 }
 
 const std::string&	Weapon::getType(void)
