@@ -6,7 +6,7 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 18:52:27 by ahwang            #+#    #+#             */
-/*   Updated: 2026/07/01 19:07:21 by ahwang           ###   ########.fr       */
+/*   Updated: 2026/07/02 02:21:05 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,11 @@ int	main(int argc, char **argv)
 	std::cout << a << std::endl;
 	std::cout << b << std::endl;
 	std::cout << Fixed::max( a, b ) << std::endl;
+
+	std::cout << "=============" << std::endl;
+	Fixed c(Fixed(3) / Fixed(0));
+	Fixed d(Fixed(3) / Fixed(-1));
+	std::cout << d << std::endl;
 
 	return (0);
 }

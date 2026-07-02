@@ -6,7 +6,7 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 18:52:22 by ahwang            #+#    #+#             */
-/*   Updated: 2026/07/01 18:58:25 by ahwang           ###   ########.fr       */
+/*   Updated: 2026/07/02 02:17:09 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -127,7 +127,7 @@ Fixed	Fixed::operator*(const Fixed& fixed) const
 
 Fixed	Fixed::operator/(const Fixed& fixed) const
 {
-	if (fixed.toFloat() > 0)
+	if (fixed.toFloat() != 0)
 		return (Fixed(this->toFloat() / fixed.toFloat()));
 	std::cout << "Cannot divided by 0" << std::endl;
 	return (DIVISION_ERR);
