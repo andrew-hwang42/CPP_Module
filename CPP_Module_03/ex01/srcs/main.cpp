@@ -6,7 +6,7 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 04:11:11 by ahwang            #+#    #+#             */
-/*   Updated: 2026/07/04 06:43:24 by ahwang           ###   ########.fr       */
+/*   Updated: 2026/07/04 22:13:32 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,9 +45,9 @@ int	main(int argc, char **argv)
 	std::cout << std::endl << CYAN << "[test02] Repair: scav_A and scav_B repair itself"
 		<< BLACK << std::endl << std::endl;
 	std::cout << CYAN << "scav_A repairs itself" << BLACK << std::endl;
-		SA.beRepaired(10);
+	SA.beRepaired(10);
 	std::cout << CYAN << "scav_B repairs itself" << BLACK << std::endl;
-		SB.beRepaired(10);
+	SB.beRepaired(10);
 
 	ScavTrap SC("scav_C");
 	ClapTrap C("clap");

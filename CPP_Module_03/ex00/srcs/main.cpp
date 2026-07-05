@@ -6,7 +6,7 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 04:11:11 by ahwang            #+#    #+#             */
-/*   Updated: 2026/07/04 05:57:54 by ahwang           ###   ########.fr       */
+/*   Updated: 2026/07/04 22:03:57 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ int	main(int argc, char **argv)
 		<< BLACK << std::endl << std::endl;
 	for (int i = 0; i < 11; i++)
 	{
-		std::cout << CYAN << "B repairs itself - " << i + 1 << "times" << BLACK << std::endl;
+		std::cout << CYAN << "B repairs itself - " << i + 1 << " times" << BLACK << std::endl;
 		B.beRepaired(10);
 	}
 	std::cout << CYAN << "B: hit point: " << BLACK << B.get_hit_points() << std::endl;

@@ -6,7 +6,7 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 18:44:13 by ahwang            #+#    #+#             */
-/*   Updated: 2026/07/01 18:45:59 by ahwang           ###   ########.fr       */
+/*   Updated: 2026/07/04 21:42:15 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int	main(int argc, char **argv)
 
 	a = Fixed( 1234.4321f );
 
+	// std::cout << "a is " << a.toFloat() << std::endl;
 	std::cout << "a is " << a << std::endl;
 	std::cout << "b is " << b << std::endl;
 	std::cout << "c is " << c << std::endl;

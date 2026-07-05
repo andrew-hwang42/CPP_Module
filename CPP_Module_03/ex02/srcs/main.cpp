@@ -6,7 +6,7 @@
 /*   By: ahwang <ahwang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 04:11:11 by ahwang            #+#    #+#             */
-/*   Updated: 2026/07/04 06:44:23 by ahwang           ###   ########.fr       */
+/*   Updated: 2026/07/04 22:20:00 by ahwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,9 +46,9 @@ int	main(int argc, char **argv)
 	std::cout << std::endl << CYAN << "[test02] Repair: frag_A and frag_B repair itself"
 		<< BLACK << std::endl << std::endl;
 	std::cout << CYAN << "frag_A repairs itself" << BLACK << std::endl;
-		FA.beRepaired(10);
+	FA.beRepaired(10);
 	std::cout << CYAN << "frag_B repairs itself" << BLACK << std::endl;
-		FB.beRepaired(10);
+	FB.beRepaired(10);
 
 	FragTrap FC("frag_C");
 	ScavTrap S("scav");
